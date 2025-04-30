@@ -30,6 +30,8 @@ Teoria chaosu, która opisuje zachowanie układów dynamicznych, jest ściśle z
 
 W ramach projektu stworzona została strona internetowa, dostępna pod adresem [https://blackbat13.github.io/Visul/views/attractors/index.html](https://blackbat13.github.io/Visul/views/attractors/index.html), na której można generować rysunki wspomnianych wcześniej atraktorów. Do wyboru jest kilka różnych atraktorów, a każdy posiada swój unikalny wygląd i wzór. Za pomocą prostego interfejsu można modyfikować parametry początkowe i obserwować, jak to wpływa na tworzący się na żywo rysunek. Ponieważ ciężko może być wybrać takie parametry, by uzyskać zadowalający efekt, przygotowanych zostało kilka gotowych przykładów, które można wybrać z listy.
 
+Projekt został napisany z wykorzystaniem JavaScript + HTML.
+
 Eksperymentuj i baw się obserwując chaos w akcji.
 
 ## Autor projektu
