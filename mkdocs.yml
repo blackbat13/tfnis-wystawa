@@ -1,0 +1,100 @@
+site_name: CS-HTIEW
+site_url: https://tfnis-wystawa.cs-htiew.pl
+plugins:
+  - search
+  - privacy
+copyright: >
+  Copyright &copy; 2025 - 2025 Damian Kurpiewski
+  <a href="#__consent">Zmień ustawienia ciasteczek</a>
+theme:
+  name: material
+  language: pl
+  icon:
+    logo: material/pig
+  palette:
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - toc.follow
+extra:
+  # analytics:
+  #   provider: google
+  #   property: G-C12CYH2WNN
+  # feedback:
+  #   title: Czy ta strona była pomocna?
+  #   ratings:
+  #     - icon: material/emoticon-happy-outline
+  #       name: Ta strona była pomocna
+  #       data: 1
+  #       note: >-
+  #         Dziękujemy za opinię!
+  #     - icon: material/emoticon-sad-outline
+  #       name: Tę stronę należy ulepszyć
+  #       data: 0
+  #       note: >- 
+  #         Dziękujemy za opinię!
+  # alternate:
+  #   - name: English
+  #     link: https://tfnis-wystawa.cs-htiew.com
+  #     lang: en
+  consent:
+    title: Zgoda na ciasteczka
+    description: >- 
+      Używamy plików cookie do rozpoznawania powtarzających się wizyt i preferencji użytkownika, a także do
+      mierzenia skuteczności naszej strony i tego, czy użytkownicy
+      znajdują to, czego szukają. Za Twoją zgodą pomagasz nam ulepszać naszą stronę.
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - tables
+extra_javascript:
+  - assets/js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+nav:
+  - 'TFNiS - wystawa': 'index.md'
+  - 'Kontakt': 'contact.md'
+  - 'Projekty':
+    - 'Atraktory - teoria chaosu': 'projects/attractors.md'
