@@ -38,4 +38,4 @@ Eksperymentuj i baw się obserwując chaos w akcji.
 
 ## Autor projektu
 
-Damian Kurpiewski
+Damian Kurpiewski - [GitHub](https://github.com/blackbat13) - [Strona osobista](https://blackbat13.github.io/)

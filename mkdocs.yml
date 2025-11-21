@@ -99,6 +99,7 @@ nav:
   - 'Projekty':
     - 'Atraktory - teoria chaosu': 'projects/attractors.md'
     - 'Labirynt Barw': 'projects/color-the-maze.md'
+    - 'Przestrzeń Transformacji': 'projects/transformation-space.md'
   - 'Pomysły':
       - 'Bardziej programistyczne':
         - 'Emo-Symfonia': 'ideas/emo-symphony.md'
