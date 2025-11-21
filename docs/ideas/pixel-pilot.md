@@ -4,24 +4,24 @@ Dlaczego grać na standardowym padzie, skoro możesz zbudować własny? W tym pr
 
 ## Pomysły na funkcjonalności
 
-1.  **Różne Typy Kontrolerów dla Różnych Gier:** Zamiast jednego, uniwersalnego padu, stwórzmy kilka specjalizowanych kontrolerów.
-    *   **Kontroler Wyścigowy:** Obudowa w kształcie małego kierownicy. Pochylenie do przodu/tyłu to gaz/hamulec, a obrót w lewo/prawo to skręt. Przycisk A na micro:bicie to klakson.
-    *   **Kontroler Lotniczy (Joystick):** Pionowa obudowa trzymana w dłoni. Pochylenie w osi X i Y steruje samolotem lub statkiem kosmicznym. Potrząśnięcie uruchamia barrel roll.
-    *   **Kontroler "Magiczny Dżdżownica":** Kontroler w kształcie kostki lub pudełka leżącego na stole. Gracz manipuluje nim, obracając i przekręcając, by sterować postacią w labiryncie lub rozwiązywać zagadki logiczne. Idealne do gier z góry.
-    *   **Kontroler Fitnessowy:** Obudowa w formie opaski na nadgarstek. Gracze wykonują fizyczne ruchy (np. przysiady, skoki, machanie ramionami), a żyroskop w micro:bicie rozpoznaje akcje i przenosi je do prostej gry sportowej.
+1.  **Różne typy kontrolerów dla różnych gier:** zamiast jednego, uniwersalnego padu, stwórzmy kilka specjalizowanych kontrolerów.
+    *   **Kontroler wyścigowy:** obudowa w kształcie małej kierownicy. Pochylenie do przodu/tyłu to gaz/hamulec, a obrót w lewo/prawo to skręt. Przycisk A na micro:bicie to klakson.
+    *   **Kontroler lotniczy (joystick):** pionowa obudowa trzymana w dłoni. Pochylenie w osi X i Y steruje samolotem lub statkiem kosmicznym. Potrząśnięcie uruchamia barrel roll.
+    *   **Kontroler "magiczna dżdżownica":** kontroler w kształcie kostki lub pudełka leżącego na stole. Gracz manipuluje nim, obracając i przekręcając, by sterować postacią w labiryncie lub rozwiązywać zagadki logiczne. Idealne do gier z góry.
+    *   **Kontroler fitnessowy:** Obudowa w formie opaski na nadgarstek. Gracze wykonują fizyczne ruchy (np. przysiady, skoki, machanie ramionami), a żyroskop w micro:bicie rozpoznaje akcje i przenosi je do prostej gry sportowej.
 
-2.  **Rozbudowa o Dodatkowe Czujniki (DIY):** Micro:bit można łatwo rozbudować.
-    *   **Dodatkowy Przycisk:** Podłączony do pinów GPIO micro:bita, może służyć jako drugi przycisk akcji.
-    *   **Fotorezystor:** Można go zamontować w obudowie. Przykrycie go palcem może aktywować tryb "niewidzialności" w grze.
-    *   **Buzzer:** Mały głośniczek podłączony do micro:bita może generować dźwięki efektowe bezpośrednio z kontrolera (np. dźwięk wystrzału, sygnał niskiego poziomu baterii).
+2.  **Rozbudowa o dodatkowe czujniki (DIY):** micro:bit można łatwo rozbudować.
+    *   **Dodatkowy przycisk:** podłączony do pinów GPIO micro:bita, może służyć jako drugi przycisk akcji.
+    *   **Fotorezystor:** można go zamontować w obudowie. Przykrycie go palcem może aktywować tryb "niewidzialności" w grze.
+    *   **Buzzer:** mały głośniczek podłączony do micro:bita może generować dźwięki efektowe bezpośrednio z kontrolera (np. dźwięk wystrzału, sygnał niskiego poziomu baterii).
 
-3.  **Wizualna Informacja Zwrotna z Kontrolera:**
-    *   **Wyświetlacz LED:** Wykorzystaj wbudowaną w micro:bit matrycę LED do wyświetlania informacji. Może pokazywać poziom życia, liczbę amunicji, aktualny tryb fire lub po prostu "żywą" animację, gdy kontroler jest w użyciu.
-    *   **Diody RGB:** Podłącz zewnętrzne diody LED do obudowy, które mogą zmieniać kolor w zależności od sytuacji w grze (czerwony przy obrażeniach, niebieski przy tarczy).
+3.  **Wizualna informacja zwrotna z kontrolera:**
+    *   **Wyświetlacz LED:** wykorzystaj wbudowaną w micro:bit matrycę LED do wyświetlania informacji. Może pokazywać poziom życia, liczbę amunicji, aktualny tryb fire lub po prostu "żywą" animację, gdy kontroler jest w użyciu.
+    *   **Diody RGB:** podłącz zewnętrzne diody LED do obudowy, które mogą zmieniać kolor w zależności od sytuacji w grze (czerwony przy obrażeniach, niebieski przy tarczy).
 
 ## Możliwe kierunki realizacji
 
-### Ścieżka 1: "Gotówiec z Sieci" (idealna dla początkujących i szybkiego efektu)
+### Ścieżka 1: "Gotowiec z Sieci" (idealna dla początkujących i szybkiego efektu)
 
 *   **Cel:** stworzenie działającego kontrolera w jak najkrótszym czasie.
 *   **Technologia:**
