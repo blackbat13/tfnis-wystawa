@@ -99,13 +99,16 @@ nav:
   - 'Projekty':
     - 'Atraktory - teoria chaosu': 'projects/attractors.md'
   - 'Pomysły':
-    - 'Emo-Symfonia': 'ideas/emo-symphony.md'
-    - 'Sfera Szeptów': 'ideas/sphere-of-whispers.md'
-    - 'Żywe Płótno': 'ideas/living-canvas.md'
-    - 'Echo Wystawy': 'ideas/exhibition-echo.md'
-    - 'Kinetyczny Pojedynek': 'ideas/kinetic-duel.md'
-    - 'Iluzja Feniksa': 'ideas/phoenix-illusion.md'
-    - 'Nieskończona Opowieść': 'ideas/endless-story.md'
-    - 'Pixel Pilot': 'ideas/pixel-pilot.md'
-    - 'Magiczne Oko': 'ideas/magic-eye.md'
-    - 'Serce Chaosu': 'ideas/chaos-heart.md'
+      - 'Bardziej programistyczne':
+        - 'Emo-Symfonia': 'ideas/emo-symphony.md'
+        - 'Kinetyczny Pojedynek': 'ideas/kinetic-duel.md'
+        - 'Nieskończona Opowieść': 'ideas/endless-story.md'
+        - 'Magiczne Oko': 'ideas/magic-eye.md'
+        - 'Serce Chaosu': 'ideas/chaos-heart.md'
+      - 'Bardziej techniczne':  
+        - 'Sfera Szeptów': 'ideas/sphere-of-whispers.md'
+        - 'Żywe Płótno': 'ideas/living-canvas.md'
+        - 'Echo Wystawy': 'ideas/exhibition-echo.md'
+        - 'Iluzja Feniksa': 'ideas/phoenix-illusion.md'
+        - 'Pixel Pilot': 'ideas/pixel-pilot.md'
+    
