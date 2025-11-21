@@ -16,7 +16,9 @@ A oto wzór, wedle którego są generowane powyższe rysunki:
 
 $$
 x_{n+1} = \sin(a * y_n) + c * \cos(a * x_n)
-\\
+$$
+
+$$
 y_{n+1} = \sin(b * x_n) + d * \cos(b * y_n)
 $$
 
