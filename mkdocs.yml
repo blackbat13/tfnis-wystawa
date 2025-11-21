@@ -98,3 +98,5 @@ nav:
   - 'Kontakt': 'contact.md'
   - 'Projekty':
     - 'Atraktory - teoria chaosu': 'projects/attractors.md'
+  - 'Pomysły':
+    - 'Emo-Symfonia': 'ideas/emo-symphony.md'
