@@ -98,6 +98,7 @@ nav:
   - 'Kontakt': 'contact.md'
   - 'Projekty':
     - 'Atraktory - teoria chaosu': 'projects/attractors.md'
+    - 'Labirynt Barw': 'projects/color-the-maze.md'
   - 'Pomysły':
       - 'Bardziej programistyczne':
         - 'Emo-Symfonia': 'ideas/emo-symphony.md'
