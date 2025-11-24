@@ -10,7 +10,7 @@ theme:
   name: material
   language: pl
   icon:
-    logo: material/pig
+    logo: fontawesome/solid/computer
   palette:
     - scheme: default
       primary: deep purple
