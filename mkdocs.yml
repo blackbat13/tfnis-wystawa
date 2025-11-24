@@ -100,6 +100,8 @@ nav:
     - 'Atraktory - teoria chaosu': 'projects/attractors.md'
     - 'Labirynt Barw': 'projects/color-the-maze.md'
     - 'Przestrzeń Transformacji': 'projects/transformation-space.md'
+  - 'Projekty archiwalne':
+    - 'Robot micro:bit': 'archive/microbit-robot.md'
   - 'Pomysły':
       - 'Bardziej programistyczne':
         - 'Emo-Symfonia': 'ideas/emo-symphony.md'
