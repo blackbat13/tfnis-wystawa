@@ -24,27 +24,27 @@ Projekt ten można zrealizować na wiele sposobów, co czyni go idealnym dla zes
 
 * **Cel:** Stworzenie działającej koncepcji w krótkim czasie.
 * **Technologia:**
-  * **AI:** Gotowe, wstępnie wytrenowane modele dostępne przez proste biblioteki Pythona (np. `face_recognition` do wykrywania twarzy i `deepface` do klasyfikacji emocji).
-  * **Muzyka:** Zamiast generować, można użyć gotowej biblioteki utworów podzielonych na gatunki i nastroje. Program wybiera odpowiedni plik MP3.
-  * **Efekty:** Prosta modyfikacja dźwięku za pomocą biblioteki `pydub` (zmiana tempa, dodanie prostego pogłosu).
+    * **AI:** Gotowe, wstępnie wytrenowane modele dostępne przez proste biblioteki Pythona (np. `face_recognition` do wykrywania twarzy i `deepface` do klasyfikacji emocji).
+    * **Muzyka:** Zamiast generować, można użyć gotowej biblioteki utworów podzielonych na gatunki i nastroje. Program wybiera odpowiedni plik MP3.
+    * **Efekty:** Prosta modyfikacja dźwięku za pomocą biblioteki `pydub` (zmiana tempa, dodanie prostego pogłosu).
 * **Wyzwania:** Integracja kilku bibliotek, obsługa strumienia wideo z kamery.
 
 ### Ścieżka 2: "Hybrydowa Generacja" (Dla średniozaawansowanych)
 
 * **Cel:** Większa kreatywność i unikalność generowanej muzyki.
 * **Technologia:**
-  * **AI:** Użycie bardziej zaawansowanych modeli, np. z `Hugging Face Transformers` do analizy sentymentu.
-  * **Muzyka:** Generowanie muzyki proceduralnej. Zamiast gotowych utworów, program komponuje muzykę od zera na podstawie reguł (np. emocja "radość" = szybkie tempo, tonacja dur, wysokie nuty). Można do tego użyć bibliotek jak `mingus` lub `tone.js` (jeśli część frontendowa będzie w JavaScript).
-  * **Efekty:** Integracja z prostym VST (wirtualnym instrumentem) lub biblioteką do syntezy dźwięku (np. `pyo` w Pythonie), by dynamicznie zmieniać parametry dźwięku.
+    * **AI:** Użycie bardziej zaawansowanych modeli, np. z `Hugging Face Transformers` do analizy sentymentu.
+    * **Muzyka:** Generowanie muzyki proceduralnej. Zamiast gotowych utworów, program komponuje muzykę od zera na podstawie reguł (np. emocja "radość" = szybkie tempo, tonacja dur, wysokie nuty). Można do tego użyć bibliotek jak `mingus` lub `tone.js` (jeśli część frontendowa będzie w JavaScript).
+    * **Efekty:** Integracja z prostym VST (wirtualnym instrumentem) lub biblioteką do syntezy dźwięku (np. `pyo` w Pythonie), by dynamicznie zmieniać parametry dźwięku.
 * **Wyzwania:** Zrozumienie podstaw teorii muzyki, programowanie logiki generacyjnej, synchronizacja wizji i dźwięku w czasie rzeczywistym.
 
 ### Ścieżka 3: "Głęboka Sieć Neuronowa" (Dla zaawansowanych)
 
 * **Cel:** Projekt ostateczny, w pełni generatywny i zaskakujący.
 * **Technologia:**
-  * **AI:** Trenowanie własnego, mniejszego modelu do rozpoznawania emocji, jeśli chcemy uzyskać unikalne wyniki. Można też użyć dużych, wielomodalnych modeli (np. GPT-4V z API), które opisują scenę i emocje w tekście.
-  * **Muzyka:** Użycie modeli generatywnych do muzyki, jak MusicGen (Meta) czy Riffusion. Promptem dla takiego modelu byłby opis wygenerowany przez moduł wizyjny (np. "upbeat, synth-pop, 80s style, energetic, happy").
-  * **Efekty:** Model muzyczny sam uwzględni styl w promptcie, a dodatkowe efekty można generować za pomocą sieci neuronowej do modyfikacji audio (style transfer dla dźwięku).
+    * **AI:** Trenowanie własnego, mniejszego modelu do rozpoznawania emocji, jeśli chcemy uzyskać unikalne wyniki. Można też użyć dużych, wielomodalnych modeli (np. GPT-4V z API), które opisują scenę i emocje w tekście.
+    * **Muzyka:** Użycie modeli generatywnych do muzyki, jak MusicGen (Meta) czy Riffusion. Promptem dla takiego modelu byłby opis wygenerowany przez moduł wizyjny (np. "upbeat, synth-pop, 80s style, energetic, happy").
+    * **Efekty:** Model muzyczny sam uwzględni styl w promptcie, a dodatkowe efekty można generować za pomocą sieci neuronowej do modyfikacji audio (style transfer dla dźwięku).
 * **Wyzwania:** Wymagana jest mocna karta graficzna (GPU), duże zaplecze obliczeniowe, znajomość frameworków jak PyTorch/TensorFlow, praca z API, optymalizacja wydajności w czasie rzeczywistym.
 
 ## Praktyczne wskazówki i potrzebne zasoby
