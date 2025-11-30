@@ -8,10 +8,10 @@ Interaktywna instalacja, która zamienia każdy klawisz w pędzel malujący dźw
 
 2. **Warstwy stylistyczne i "malarskie" efekty:**
     * **Instrument jako technika malarska:** każdy instrument ma swój unikalny "pędzel".
-      * **Pianino:** tworzy wyraźne, okrągłe plamy koloru, które powoli blakną.
-      * **Skrzypce:** generują cienkie, falujące linie, niczym pociągnięcia pędzla.
-      * **Syntezator analogowy:** może tworzyć geometryczne, jaskrawe kształty z wyraźnymi krawędziami.
-      * **Gitara elektryczna:** przy zniekształceniu (distortion) powoduje "rozpryski" koloru i "grube", chaotyczne ślady.
+        * **Pianino:** tworzy wyraźne, okrągłe plamy koloru, które powoli blakną.
+        * **Skrzypce:** generują cienkie, falujące linie, niczym pociągnięcia pędzla.
+        * **Syntezator analogowy:** może tworzyć geometryczne, jaskrawe kształty z wyraźnymi krawędziami.
+        * **Gitara elektryczna:** przy zniekształceniu (distortion) powoduje "rozpryski" koloru i "grube", chaotyczne ślady.
     * **Atrybuty muzyczne jako efekty specjalne:**
         * **Głośność (Velocity):** im mocniej uderzysz w klawisz, tym większy i bardziej nasycony kolor zostanie wygenerowany.
         * **Sustaining (Pedał):** przytrzymanie pedału sprawia, że kolory nie znikają, lecz zaczynają się ze sobą mieszać, tworząc nowe, mieszane odcienie na ekranie.
@@ -25,27 +25,27 @@ Interaktywna instalacja, która zamienia każdy klawisz w pędzel malujący dźw
 
 * **Cel:** Stworzenie działającej koncepcji w krótkim czasie.
 * **Technologia:**
-  * **Wejście MIDI:** Użycie prostej biblioteki do obsługi MIDI, np. `mido` w Pythonie, do przechwytywania naciśniętych klawiszy.
-  * **Wizualizacja:** Użycie gotowej biblioteki do grafiki 2D, jak `pygame` lub `processing`. Każdy klawisz może po prostu rysować na ekranie kształt (np. kółko) w z góry zdefiniowanym kolorze i pozycji.
-  * **Logika:** Prosty słownik mapujący numer nuty MIDI na kolor (np. 60 -> czerwony, 61 -> pomarańczowy, 62 -> żółty).
+    * **Wejście MIDI:** Użycie prostej biblioteki do obsługi MIDI, np. `mido` w Pythonie, do przechwytywania naciśniętych klawiszy.
+    * **Wizualizacja:** Użycie gotowej biblioteki do grafiki 2D, jak `pygame` lub `processing`. Każdy klawisz może po prostu rysować na ekranie kształt (np. kółko) w z góry zdefiniowanym kolorze i pozycji.
+    * **Logika:** Prosty słownik mapujący numer nuty MIDI na kolor (np. 60 -> czerwony, 61 -> pomarańczowy, 62 -> żółty).
 * **Wyzwania:** Konfiguracja sterowników MIDI, podstawowa grafika i obsługa pętli renderującej.
 
 ### Ścieżka 2: "Generatywna Abstrakcja" (Dla średniozaawansowanych)
 
 * **Cel:** Większa kreatywność i organiczność wizualizacji.
 * **Technologia:**
-  * **Wejście MIDI:** Użycie biblioteki `rtmidi` lub `portmidi` dla niższego poziomu kontroli nad sygnałami, w tym velocity (siłę uderzenia).
-  * **Wizualizacja:** Użycie silnika graficznego 2D z możliwościami cieniowania i shaderów, jak `Godot` lub `Unity` (w trybie 2D). Alternatywnie, `p5.js` w JavaScript dla łatwego publikowania w sieci.
-  * **Logika:** Implementacja systemu cząstek. Każda nuta to emisja cząstek, których żywotność, rozmiar, prędkość i kolor zależą od parametrów MIDI (wysokość dźwięku, głośność, czas trwania).
+    * **Wejście MIDI:** Użycie biblioteki `rtmidi` lub `portmidi` dla niższego poziomu kontroli nad sygnałami, w tym velocity (siłę uderzenia).
+    * **Wizualizacja:** Użycie silnika graficznego 2D z możliwościami cieniowania i shaderów, jak `Godot` lub `Unity` (w trybie 2D). Alternatywnie, `p5.js` w JavaScript dla łatwego publikowania w sieci.
+    * **Logika:** Implementacja systemu cząstek. Każda nuta to emisja cząstek, których żywotność, rozmiar, prędkość i kolor zależą od parametrów MIDI (wysokość dźwięku, głośność, czas trwania).
 * **Wyzwania:** Zrozumienie podstaw grafiki komputerowej (cząstki, shadery), projektowanie estetycznych i płynnych animacji, optymalizacja wydajności przy dużej liczbie obiektów na ekranie.
 
 ### Ścieżka 3: "Głęboka Sieć Neuronowa" (Dla zaawansowanych)
 
 * **Cel:** Projekt ostateczny, w pełni generatywny i zaskakujący, gdzie AI sama decyduje o wyglądzie.
 * **Technologia:**
-  * **Wejście MIDI:** Przechwytywanie pełnego strumienia danych MIDI, w tym zmian w kontrolerach (pitch bend, modulation wheel).
-  * **AI:** Trenowanie modelu generatywnego (np. GAN lub Diffusion Model, jak StyleGAN) na zbiorze danych obrazów abstrakcyjnych. Sygnał MIDI byłby wejściem do modelu, który generowałby unikalne, spójne stylistycznie obrazy w czasie rzeczywistym. Alternatywnie, użycie modelu `Stable Diffusion` z `ControlNet`, gdzie dane MIDI kontrolują np. pozycję, kolor i kształt generowanego obrazu.
-  * **Wizualizacja:** Wynik z modelu AI renderowany na ekranie w czasie rzeczywistym.
+    * **Wejście MIDI:** Przechwytywanie pełnego strumienia danych MIDI, w tym zmian w kontrolerach (pitch bend, modulation wheel).
+    * **AI:** Trenowanie modelu generatywnego (np. GAN lub Diffusion Model, jak StyleGAN) na zbiorze danych obrazów abstrakcyjnych. Sygnał MIDI byłby wejściem do modelu, który generowałby unikalne, spójne stylistycznie obrazy w czasie rzeczywistym. Alternatywnie, użycie modelu `Stable Diffusion` z `ControlNet`, gdzie dane MIDI kontrolują np. pozycję, kolor i kształt generowanego obrazu.
+    * **Wizualizacja:** Wynik z modelu AI renderowany na ekranie w czasie rzeczywistym.
 * **Wyzwania:** Wymagana jest bardzo mocna karta graficzna (GPU) z dużą ilością pamięci VRAM, znajomość frameworków AI (PyTorch/TensorFlow), praca z dużymi zbiorami danych, optymalizacja generowania obrazu w czasie rzeczywistym (co jest ekstremalnie trudne).
 
 ## Praktyczne wskazówki i potrzebne zasoby
