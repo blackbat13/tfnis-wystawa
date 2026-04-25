@@ -127,9 +127,10 @@ Przejdź wszystkie 10 rund z jak największą liczbą poprawnych odpowiedzi. Im 
 
 ---
 
-## 🛠️ Technologia
+## Technologia
 
 Projekt wykorzystuje:
+
 - **Python 3.7+** - język programowania
 - **Kinect SDK v2** - biblioteka do obsługi sensora
 - **Pygame** - silnik grafiki
