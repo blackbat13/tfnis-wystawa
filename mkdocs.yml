@@ -100,11 +100,11 @@ nav:
     - 'Atraktory - teoria chaosu': 'projects/attractors.md'
     - 'Labirynt Barw': 'projects/color-the-maze.md'
     - 'Przestrzeń Transformacji': 'projects/transformation-space.md'
+    - 'Emo-Symfonia': 'projects/emo-symphony.md'
   - 'Projekty archiwalne':
     - 'Robot micro:bit': 'archive/microbit-robot.md'
   - 'Pomysły':
       - 'Bardziej programistyczne':
-        - 'Emo-Symfonia': 'ideas/emo-symphony.md'
         - 'Kinetyczny Pojedynek': 'ideas/kinetic-duel.md'
         - 'Nieskończona Opowieść': 'ideas/endless-story.md'
         - 'Magiczne Oko': 'ideas/magic-eye.md'
